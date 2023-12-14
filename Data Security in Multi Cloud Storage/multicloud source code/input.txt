@@ -1,0 +1,30 @@
+		
+		<form action="#" class="contact_form">
+			<p>
+				<label for="name">Name <span>*</span></label>
+				<input class="inputText" type="text" id="name" name="name" />
+			</p>
+			<div class="clear"></div>
+			<p>
+				<label for="email">E-mail <span>*</span></label>
+				<input class="inputText" type="text" id="email" name="email" />
+			</p>
+			<div class="clear"></div>
+			<p>
+				<label for="website">Website</label>
+				<input class="inputText" type="text" id="website" name="website" />
+			</p>
+			<div class="clear"></div>
+			<p>
+				<label for="message">Message <span>*</span></label>
+				<textarea class="inputTextarea" cols="88" rows="6" id="message" name="message"></textarea>
+			</p>
+			<div class="clear"></div>
+			<p class="submit">
+				<a href="javascript:void(0);" class="button white" onclick="$('.contact_form').submit();">Send</a>
+			</p>
+			</form>
+			<!-- END CONTACT FORM -->	
+			
+		</div>
+	'
